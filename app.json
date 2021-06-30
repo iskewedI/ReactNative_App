@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "DoneWithIt",
+    "name": "JDoneWithIt",
     "slug": "DoneWithIt",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Practice project",
+    "githubUrl": "https://github.com/iskewedI/ReactNative_App"
   }
 }
