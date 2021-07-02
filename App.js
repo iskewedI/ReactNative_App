@@ -1,16 +1,11 @@
 import React from 'react';
 import { SafeAreaView, Platform, StyleSheet, StatusBar, View } from 'react-native';
+import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <View
-        style={{
-          backgroundColor: 'dodgerblue',
-          width: '50%',
-          height: '30%',
-        }}
-      ></View>
+      <WelcomeScreen />
     </SafeAreaView>
   );
 };
