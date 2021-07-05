@@ -4,18 +4,14 @@ import ViewImageScreen from './app/screens/ViewImageScreen';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default App = () => {
-  return (
-    <SafeAreaView style={styles.container}>
-      <WelcomeScreen />
-      <ViewImageScreen />
-    </SafeAreaView>
-  );
+  return <SafeAreaView style={styles.container}></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
     paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
 });
