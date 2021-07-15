@@ -1,15 +1,13 @@
 import React from 'react';
-import { SafeAreaView, Platform, StyleSheet, StatusBar, View } from 'react-native';
-import AppButton from './app/components/AppButton';
+import { SafeAreaView, Platform, StyleSheet, StatusBar } from 'react-native';
 // It will import the AppText for plaform where are in
-import AppText from './app/docs/AppText';
 import ViewImageScreen from './app/screens/ViewImageScreen';
 import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <AppButton title='Login' />
+      <WelcomeScreen />
     </SafeAreaView>
   );
 };
